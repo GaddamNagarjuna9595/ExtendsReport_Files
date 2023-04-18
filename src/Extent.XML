@@ -4,7 +4,7 @@
 
     <!-- report theme -->
     <!-- STANDARD, DARK -->
-    <theme>STANDARD</theme>
+    <theme>DARK</theme>
 
     <!-- document encoding -->
     <!-- defaults to UTF-8 -->
@@ -26,13 +26,13 @@
     <thumbnailForBase64>false</thumbnailForBase64>
 
     <!-- title of the document -->
-    <documentTitle>Extent Framework</documentTitle>
+    <documentTitle>Doc Title</documentTitle>
 
     <!-- report name - displayed at top-nav -->
-    <reportName>Build 1</reportName>
+    <reportName>Report Name</reportName>
 
     <!-- timestamp format -->
-    <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+    <timeStampFormat>dd-MM-yyyy hh:mm:ss</timeStampFormat>
 
     <!-- custom javascript -->
     <scripts>

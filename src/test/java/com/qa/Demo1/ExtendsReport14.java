@@ -47,10 +47,15 @@ public class ExtendsReport14 {
 		ExtentReports extentreport = new ExtentReports();
 		File file = new File("ramcharan.html");
 		ExtentSparkReporter spartreporter= new ExtentSparkReporter(file);
-		spartreporter.config().setTheme(Theme.DARK);
-		spartreporter.config().setReportName("Report Name");
-		spartreporter.config().setDocumentTitle("Doc Tile");
-		spartreporter.config().setTimeStampFormat("dd-MM-yyyy hh:mm:ss");
+//		spartreporter.config().setTheme(Theme.DARK);
+//		spartreporter.config().setReportName("Report Name");
+//		spartreporter.config().setDocumentTitle("Doc Tile");
+//		spartreporter.config().setTimeStampFormat("dd-MM-yyyy hh:mm:ss");
+//		spartreporter.config().setCss(".badge-primary{background-color:#da0b2b}");
+//		spartreporter.config().setJs("document.getElementsByClassName('logo')[0].style.display='none';");
+		
+	//	spartreporter.loadJSONConfig(new File("./src/Extent-Reports-Configurations.json"));
+		spartreporter.loadXMLConfig(new File("./src/Extent.XML"));
 		
 		extentreport.attachReporter(spartreporter);
 		

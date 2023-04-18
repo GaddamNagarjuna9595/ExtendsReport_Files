@@ -1,0 +1,86 @@
+package com.qa.Demo1;
+
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+import java.sql.Driver;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.CodeLanguage;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.StatusFilter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.aventstack.extentreports.reporter.configuration.ViewConfigurer;
+import com.aventstack.extentreports.reporter.configuration.ViewName;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+ 
+public class ExtendsReport20 {
+	/*
+	 * ShortCuts In Extent Reports
+	 * 
+	 * p - show passed tests
+	 * f - show failed tests
+	 * s - show skipped tests
+	 * w - show warning tests
+	 * esc - clean filters
+	 * down-arrow -scroll down
+	 * up-arrow - scroll up
+	 * l-switch theme
+	 * t- test
+	 * c- tag
+	 * d- dashboard
+	 * x- exception/bug 
+	 */
+
+	
+	public static void main(String[] args) throws IOException {
+		
+	
+	
+		
+		
+	}
+	
+	
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+
+		
+		
+		
+		
+		
+		
